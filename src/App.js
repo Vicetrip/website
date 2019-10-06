@@ -1,21 +1,18 @@
 import React from 'react';
-import logo from './logo_full.png';
+import { BrowserRouter,  Switch, Route } from 'react-router-dom';
+
 import './App.css';
+import HomeModule from './Modules/Home/home';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <a
-          className="App-link"
-          href="https://vicetrip.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={logo} className="App-logo" alt="logo" />
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Switch>
+          <Route exact path="/" component={HomeModule} />
+        </Switch>
+      </div>
+    </BrowserRouter>
   );
 }
 
