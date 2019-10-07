@@ -1,0 +1,54 @@
+img.shape-one{
+    top: 35%;
+    position: absolute;
+    right: 5%;
+    z-index: -1;
+}
+img.shape-two{
+    top: 20%;
+    position: absolute;
+    right: 50%;
+    z-index: -1;
+}
+img.shape-three{
+    top: 13%;
+    position: absolute;
+    right: 20%;
+    z-index: -1;
+}
+img.shape-four{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    z-index: -1;
+}
+img.shape-five{
+    position: absolute;
+    bottom: 14%;
+    right: 7%;
+    z-index: -1;
+}
+img.shape-six{
+    position: absolute;
+    bottom: 10%;
+    left: 35%;
+    z-index: -1;
+}
+.shape{
+    -webkit-animation: fa-spin 5s infinite linear;
+    -moz-animation: fa-spin 5s infinite linear;
+    -ms-animation: fa-spin 5s infinite linear;
+    -o-animation: fa-spin 5s infinite linear;
+    animation: fa-spin 5s infinite linear;
+}
+@keyframes fa-spin{
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}

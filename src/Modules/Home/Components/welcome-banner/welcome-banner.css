@@ -1,0 +1,52 @@
+.banner{
+    padding: 4vw 0;
+    z-index: 0;
+}
+.pos-rel{
+    position: relative !important;
+}
+.ban-txt{
+    padding-top: 7vw;
+}
+h3.ban-ttl{
+    font-size: 4rem;
+    font-weight: 600;
+    color: #00507d;
+    /* color: #202428; */
+}
+h3.ban-ttl span{
+    color: #26a9e0;
+}
+p.ban-des{
+    font-size: 16px;
+    color: #51585f;
+    max-width: 800px;
+    margin: 20px 0;
+}
+.ban-img img{
+    max-width: 540px;
+}
+.button-style{
+    padding: 14px 26px;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #05b993;
+}
+.button-style:hover{
+    color: #fff;
+}
+.btn:hover{
+    opacity: .8;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}

@@ -1,0 +1,32 @@
+.about-tech{
+    padding-right: 7vw;
+}
+.about-tech h6{
+    color: rgb(5, 185, 147);
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+.about-tech h3{
+    font-size: 34px; 
+    line-height: 1.4;
+    font-weight: 600;
+}
+.text-da{
+    color:#000;
+}
+.about-tech p{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.9;
+    color: #51585f;
+}
+ul.our-strength li{
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    font-size: 16px;
+    list-style: inside;
+} 

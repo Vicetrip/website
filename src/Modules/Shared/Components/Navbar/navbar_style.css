@@ -18,6 +18,7 @@ nav ul{
     position: relative;
 }
 nav a{
+    /* color: #00507d; */
     color: #202428;
     font-size: 15px;
     letter-spacing: .5px;
@@ -26,10 +27,10 @@ nav a{
 }
 nav a:hover{
     text-decoration: none;
-
+    color: #26a9e0;
 }
 nav ul li{
     margin: 0px;
     display: inline-block;
-    float: left;
+    /* float: left; */
 }
