@@ -12,7 +12,7 @@ class OurService extends Component {
                 <div className="container py-xl-5 py-lg-3">
                     <h3 className="title text-center font-weight-bold">Our Services</h3>
                     <p className="sub-title text-center mt-3 mb-sm-5 mb-4">
-                        Are you a startup travel agency looking for Tech support at affordable cost? you ended up in the right place, we are offering following services that you avail right away with a click.
+                        Are you a startup, looking for Tech support at affordable cost? you ended up in the right place, we are offering following services that you avail right away with a click.
                     </p>
                     <div className="row pt-lg-4">
                         <div className="col-lg-4 our-serv text-center">

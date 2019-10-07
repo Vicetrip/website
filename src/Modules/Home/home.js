@@ -7,6 +7,8 @@ import './home.css'
 import WhatWe from './Components/what-we/what-we';
 import MidBanner from './Components/mid-banner/mid-banner';
 import OurService from './Components/our-service/our-service';
+import SubscribeMail from '../Shared/Components/Footer/subscribe/subscribe-mail';
+import CopyRight from '../Shared/Components/Footer/copy-right/copy-right';
 
 class HomeModule extends Component {
     state = {  }
@@ -21,6 +23,8 @@ class HomeModule extends Component {
                 <WhatWe />
                 <MidBanner />
                 <OurService />
+                <SubscribeMail />
+                <CopyRight />
             </React.Fragment>
          );
     }

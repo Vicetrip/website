@@ -23,3 +23,6 @@ p{
 .primary-light{
   color: #26a9e0;
 }
+html{
+  scroll-behavior: smooth;
+}

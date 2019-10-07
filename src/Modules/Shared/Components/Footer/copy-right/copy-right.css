@@ -1,0 +1,22 @@
+.social-icons-footer ul li a span {
+    color: #705ecf;
+    margin: 0 8px;
+    font-size: 16px;
+}
+.list-unstyled{
+    padding-left: 0;
+    list-style: none;
+}
+.social-icons-footer ul li{
+    display: inline-block;
+}
+.let{
+    letter-spacing: 1px;
+}
+.text-bl{
+    color: #343a40;
+}
+.move-top{
+    color: #05b993;
+    font-size: 30px;
+}
