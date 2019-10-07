@@ -12,7 +12,7 @@ class AnimBox extends Component {
     state = {  }
     render() { 
         return ( 
-            <div class="icon-effects-w3l">
+            <div className="icon-effects-w3l">
 				<img src={shape1} alt="" className="img-fluid shape shape-one" />
 				<img src={shape2} alt="" className="img-fluid shape shape-two" />
 				<img src={shape3} alt="" className="img-fluid shape shape-three" />

@@ -2,7 +2,7 @@ body {
   padding: 0;
   margin: 0;
   background: #FFF;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

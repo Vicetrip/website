@@ -6,6 +6,7 @@ import AnimBox from './Components/anim-box/anim-box';
 import './home.css'
 import WhatWe from './Components/what-we/what-we';
 import MidBanner from './Components/mid-banner/mid-banner';
+import OurService from './Components/our-service/our-service';
 
 class HomeModule extends Component {
     state = {  }
@@ -19,6 +20,7 @@ class HomeModule extends Component {
                 </div>
                 <WhatWe />
                 <MidBanner />
+                <OurService />
             </React.Fragment>
          );
     }
